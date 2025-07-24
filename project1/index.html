@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personality Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Personality Prediction Quiz</h1>
+    <form action="result.php" method="POST">
+        <label>1. Do you enjoy social gatherings?</label><br>
+        <input type="radio" name="q1" value="E" required> Yes
+        <input type="radio" name="q1" value="I"> No<br><br>
+
+        <label>2. Do you make decisions based on logic?</label><br>
+        <input type="radio" name="q2" value="T" required> Yes
+        <input type="radio" name="q2" value="F"> No<br><br>
+
+        <label>3. Are you more organized or spontaneous?</label><br>
+        <input type="radio" name="q3" value="J" required> Organized
+        <input type="radio" name="q3" value="P"> Spontaneous<br><br>
+
+        <label>4. Do you rely more on facts or ideas?</label><br>
+        <input type="radio" name="q4" value="S" required> Facts
+        <input type="radio" name="q4" value="N"> Ideas<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
